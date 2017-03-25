@@ -1,0 +1,14 @@
+to add:
+    matplotlib with data
+    save plots
+
+to do :
+    asciinema
+
+
+
+Projects :
+    voice recognition
+    number detection
+    animal sounds
+    music analysis
