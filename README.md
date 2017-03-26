@@ -23,9 +23,7 @@ pip3 install scipy
 ```
 
 ## Usage
-link here
-
-[![asciicast](https://asciinema.org/a/0e086tk1fcqqbyx0x9ecdxkic.png)](https://asciinema.org/a/0e086tk1fcqqbyx0x9ecdxkic)
+[![asciicast](https://asciinema.org/a/65cv10zfa9hahtjxocg01x1nm.png)](https://asciinema.org/a/65cv10zfa9hahtjxocg01x1nm)
 
 ## [Contributing.md]()
 
