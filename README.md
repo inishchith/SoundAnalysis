@@ -1,6 +1,7 @@
-Sound Analysis <img src = "http://www.freeiconspng.com/uploads/audio-sound-waves-png-7.png" height = "90" >
+Sound Analysis <img src = "http://www.freeiconspng.com/uploads/audio-sound-waves-png-7.png" height = "50" >
 ============
-** [LibROSA](https://librosa.github.io) ** : LibROSA is a python package for music and audio analysis , it provides the building blocks necessary to create music information retrieval systems .
+# Using [LibROSA](https://librosa.github.io)  
+ LibROSA is a python package for music and audio analysis , it provides the building blocks necessary to create music information retrieval systems .
 
 ## Description
 > Out of sound clips provided under `training instances` , 38 of Mel Frequency cepstral coefficients(.mfcc) are extracted/saved and then comapred with the existing presets .
