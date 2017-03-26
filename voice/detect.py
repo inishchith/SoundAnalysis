@@ -41,8 +41,8 @@ def main():
     inpdat = numpy.loadtxt(inp)
     cost = []
     trl = range(0, NUMBER_OF_TRAINING_INSTANCES)
-    array = ['divya','prafful','ahaan','nishchith','pravar']
-    for i in range(0, 4):
+    array = ['divya','nishchith']
+    for i in range(0, 2):
         cos = []
         for m in trl:
             l=[]
@@ -55,12 +55,18 @@ def main():
         print()
         cost[len(cost):] = [min(cos)]
     print(cost)
-    # print '\n'
-    index = cost.index(min(cost))
-    print('person recognised as {0}'.format(array[index][:]))
-    et = time.clock()
-    os.system('say Person detected as '+array[index][:])
-    print('{0} seconds'.format(et - st))
+    if abs(cost[0]-cost[1])<=10:
+        print("Please be clear ")
+        # print '\n'
+    else :
+        index = cost.index(min(cost))
+        name = "male"
+        if index ==0 :
+            name = "female"
+        print('gender recognised as {0}'.format(name))
+        et = time.clock()
+        os.system('say gender detected as '+name)
+        print('{0} seconds'.format(et - st))
 
 if __name__ == '__main__':
     main()

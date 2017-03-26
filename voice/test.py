@@ -27,12 +27,12 @@ import librosa.display
 #version count
 start= 0
 stop = 10
-data=['divya','prafful','ahaan','nishchith','pravar']
+data=['divya','nishchith']
 
 st = timeit.default_timer()
 for name in data:
     for v in range(start,stop):
-        for j in range(0,5):
+        for j in range(5):
             # dir here
             y, sr = librosa.load('train/' + name + '/' + str(v)+'_'+str(j) + '.wav')
             hop = 512

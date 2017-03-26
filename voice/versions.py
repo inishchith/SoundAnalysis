@@ -21,7 +21,7 @@ data=['divya','prafful','ahaan','nishchith','pravar']
 versions = 10
 #no of versions = 5
 
-init = data[0]
+init = data[3]
 #enter dirs
 for i in range(versions):
     for j in range(5):
@@ -43,7 +43,7 @@ for i in range(versions):
         # The device will record for 20 seconds until there has been 0.5
         # second of audio (18 frames) where the energy is less than the threshold
 
-        for _ in range(0, int(RATE / CHUNK * RECORD_SECONDS)):
+        for _ in range(0, int(RATE // CHUNK * RECORD_SECONDS)):
             data = stream.read(CHUNK)
             frames.append(data)
             nums = array.array('h', data)
