@@ -7,11 +7,11 @@ Sound Analysis <img src = "http://www.freeiconspng.com/uploads/audio-sound-waves
 > Out of sound clips provided under `training instances` , 38 of Mel Frequency cepstral coefficients(.mfcc) are extracted/saved and then comapred with the existing presets .
 
 ## Content
-> [animals]() : A test animal sound clip is fed to the program , it detects and prints the `name of the animal` .
+> [animals](https://github.com/inishchith/SoundAnalysis/tree/master/animals) : A test animal sound clip is fed to the program , it detects and prints the `name of the animal` .
 
-> [voice]() : A test human sound clip is fed to the prgram , it detects and prints the `gender of the speaker` .
+> [voice](https://github.com/inishchith/SoundAnalysis/tree/master/voice) : A test human sound clip is fed to the prgram , it detects and prints the `gender of the speaker` .
 
-> [music]() : A test sound piece is fed to the program and it detects which `genre of music` it is .
+> [music](https://github.com/inishchith/SoundAnalysis/tree/master/music) : A test sound piece is fed to the program and it detects which `genre of music` it is .
 
 ## Installation
 - install [LibROSA](https://librosa.github.io/librosa/install.html)
