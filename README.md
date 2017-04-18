@@ -27,8 +27,11 @@ pip3 install scipy
 
 ## [Contributing.md]()
 
+## Recognition :
+- This repository / project was a part of `[Mumbai Hackathon 2017](https://mumbaihackathon.in/winners)`
 
 ## Note :
+- This project was done `under 24 hours`  with minimal pre-preparation
 - Here number of training instances were low in reference to time limit provided .
 
 ## Contributers
