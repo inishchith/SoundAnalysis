@@ -34,7 +34,7 @@ pip3 install scipy
 - This project was done `under 24 hours`  with minimal pre-preparation
 - Here number of training instances were low in reference to time limit provided .
 
-## Contributers
+## Contributors
 - @[praffulj4199](https://github.com/praffulj4199)
 - @[divyakhetan](https://github.com/divyakhetan)
 - @[ahaanshetty](https://github.com/ahaanshetty)
