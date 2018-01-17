@@ -1,7 +1,5 @@
 Sound Analysis <img src = "http://www.freeiconspng.com/uploads/audio-sound-waves-png-7.png" height = "50" >
 ============
-[![Build Status](https://travis-ci.org/inishchith/SoundAnalysis.svg?branch=master)](https://travis-ci.org/inishchith/SoundAnalysis)
-
 # Using [LibROSA](https://librosa.github.io)  
  LibROSA is a python package for music and audio analysis , it provides the building blocks necessary to create music information retrieval systems .
 
